@@ -35,12 +35,10 @@ namespace LabRab6
             }
             //Вводим количество элементов для  сдвига
             Console.Write("Введите количество элементов для  сдвига: ");
-            string buf1 = Console.ReadLine();
-            int n = int.Parse(buf1);
+            int n = int.Parse(Console.ReadLine());
             //Ввдим режим сдвига
             Console.Write("Выберите режим сдвига( 1 - вправо, 2 - вниз ): ");
-            string buf2 = Console.ReadLine();
-            int sd = int.Parse(buf2);
+            int sd = int.Parse(Console.ReadLine());
             //Осуществляем сдвиги
             int inew = 0, jnew = 0;
             int g = 0;
@@ -75,7 +73,6 @@ namespace LabRab6
                 }
             }
             else Console.WriteLine("Ошибка!");
-            //Ввыводим массив со сдвигом
             Console.ReadLine();
         }
     }
